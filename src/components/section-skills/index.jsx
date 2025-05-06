@@ -3,18 +3,18 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
-const SectionSkills = ({ skills }) => {
+const SectionExperiences = ({ experiences }) => {
   return (
-    <Section title="Skills">
-      {skills.map((skill) => (
+    <Section title="Experiences">
+      {experiences.map((experience) => (
         <SummaryItem
-          key={skill.name}
-          name={skill.name}
-          description={skill.description}
+          key={experience.name}
+          name={experience.name}
+          description={experience.description}
         />
       ))}
     </Section>
   );
 };
 
-export default SectionSkills;
+export default SectionExperiences;
