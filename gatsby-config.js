@@ -34,7 +34,7 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    workexperience: [
+    experiences: [
       {
         name: 'Research Intern',
         description:
