@@ -17,9 +17,9 @@ module.exports = {
     // Content of the About Me section
     about: `I’m a BS student majoring in Informaion Technology Engineering and Big Data Analytics at Sookmyung Women’s University.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    news: [
+    publication: [
       {
-        name: 'Devfolio',
+        name: 'ELITE',
         description:
           'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
         link: 'https://github.com/RyanFitzgerald/devfolio',
