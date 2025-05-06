@@ -24,18 +24,6 @@ module.exports = {
           'Wonjun Lee*, Doehyeon Lee*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim International Conference on Machine Learning (ICML) 2025',
         link: 'https://velpegor.github.io/ELITE/',
       },
-      {
-        name: 'ExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     education: [
