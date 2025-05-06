@@ -28,8 +28,8 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     education: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: '',
+        description: 'B.S. in Information Technology Engineering, Sookmyung Women’s University, March 2020 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
