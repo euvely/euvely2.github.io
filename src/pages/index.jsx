@@ -8,7 +8,7 @@ import SectionAbout from '../components/section-about';
 import SectionBlog from '../components/section-blog';
 import SectionEducation from '../components/section-experience';
 import SectionPublications from '../components/section-projects';
-import SectionSkills from '../components/section-skills';
+import SectionExperiences from '../components/section-skills';
 import SEO from '../components/seo';
 
 const Index = ({ data }) => {
@@ -16,7 +16,7 @@ const Index = ({ data }) => {
   const publications = get(data, 'site.siteMetadata.publications', false);
   const posts = data.allMarkdownRemark.edges;
   const education = get(data, 'site.siteMetadata.education', false);
-  const skills = get(data, 'site.siteMetadata.skills', false);
+  const experiences = get(data, 'site.siteMetadata.experiences', false);
   const noBlog = !posts || !posts.length;
 
   return (
@@ -29,7 +29,7 @@ const Index = ({ data }) => {
       {education && education.length && (
         <SectionEducation education={education} />
       )}
-      {skills && skills.length && <SectionSkills skills={skills} />}
+      {experiences && experiences.length && <SectionExperiences experiences={experiences} />}
     </Layout>
   );
 };
@@ -57,9 +57,10 @@ export const pageQuery = graphql`
           description
           link
         }
-        skills {
+        experiences {
           name
           description
+          link
         }
       }
     }
