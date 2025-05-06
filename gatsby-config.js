@@ -38,7 +38,7 @@ module.exports = {
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
+    education: [
       {
         name: 'Acme Corp',
         description: 'Full-Stack Developer, February 2020 - Present',
@@ -56,15 +56,17 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    skills: [
+    work experience: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Research Intern',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'AIM Intelligence, Oct 2024 - Feb 2025',
+        link: 'https://aim-intelligence.com/en',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Undergraduate Student Researcher',
+        description: 'Sookmyung Women's University, Sep 2022 - Jan 2024',
+        link: 'https://sites.google.com/site/sydonglab/home?authuser=0',
       },
       {
         name: 'Other',
