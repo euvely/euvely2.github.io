@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Eugene Choi',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Eugene Choi | AI Researcher`,
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
