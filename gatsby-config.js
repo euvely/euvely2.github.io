@@ -19,10 +19,10 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     publication: [
       {
-        name: 'ELITE',
+        name: 'ELITE: Enhanced Language-Image Toxicity Evaluation for Safety',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Wonjun Lee*, Doehyeon Lee*, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim International Conference on Machine Learning (ICML) 2025',
+        link: 'https://velpegor.github.io/ELITE/',
       },
       {
         name: 'ExtensionKit',
@@ -56,7 +56,7 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    work experience: [
+    "work experience": [
       {
         name: 'Research Intern',
         description:
