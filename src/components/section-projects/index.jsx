@@ -3,7 +3,7 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
-const SectionProjects = ({ publications }) => {
+const SectionPublications = ({ publications }) => {
   if (!publications.length) return null;
 
   return (
@@ -20,4 +20,4 @@ const SectionProjects = ({ publications }) => {
   );
 };
 
-export default SectionProjects;
+export default SectionPublications;
