@@ -3,7 +3,7 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://cozy-boba-c48411.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Eugene Choi',
     // Main Site Title
     title: `Ryan Fitzgerald | Full-Stack Developer`,
     // Description that goes under your name in main bio
