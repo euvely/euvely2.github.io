@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://github.com/RyanFitzgerald/devfolio`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I’m a BS student majoring in Informaion Technology Engineering and Big Data Analytics at Sookmyung Women’s University.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
