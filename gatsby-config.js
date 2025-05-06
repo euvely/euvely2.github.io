@@ -17,7 +17,7 @@ module.exports = {
     // Content of the About Me section
     about: `I’m a BS student majoring in Informaion Technology Engineering and Big Data Analytics at Sookmyung Women’s University.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    news: [
       {
         name: 'Devfolio',
         description:
@@ -56,7 +56,7 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    work experience: [
+    workexperience: [
       {
         name: 'Research Intern',
         description:
@@ -67,11 +67,6 @@ module.exports = {
         name: 'Undergraduate Student Researcher',
         description: 'Sookmyung Women's University, Sep 2022 - Jan 2024',
         link: 'https://sites.google.com/site/sydonglab/home?authuser=0',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
       },
     ],
   },
