@@ -56,7 +56,7 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    workexperience: [
+    work experience: [
       {
         name: 'Research Intern',
         description:
@@ -65,7 +65,7 @@ module.exports = {
       },
       {
         name: 'Undergraduate Student Researcher',
-        description: 'Sookmyung Women's University, Sep 2022 - Jan 2024',
+        description: 'Sookmyung Womens University, Sep 2022 - Jan 2024',
         link: 'https://sites.google.com/site/sydonglab/home?authuser=0',
       },
     ],
