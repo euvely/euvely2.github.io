@@ -3,17 +3,17 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
-const SectionProjects = ({ projects }) => {
-  if (!projects.length) return null;
+const SectionProjects = ({ publications }) => {
+  if (!publications.length) return null;
 
   return (
-    <Section title="Projects">
-      {projects.map((project) => (
+    <Section title="Publications">
+      {publications.map((publication) => (
         <SummaryItem
-          key={project.name}
-          name={project.name}
-          description={project.description}
-          link={project.link}
+          key={publication.name}
+          name={publication.name}
+          description={publication.description}
+          link={publication.link}
         />
       ))}
     </Section>
