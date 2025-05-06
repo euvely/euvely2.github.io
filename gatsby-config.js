@@ -9,11 +9,11 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    //author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
+    github: `https://github.com/euvely`,
     // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
+    linkedin: `https://www.linkedin.com/in/eugene1123/`,
     // Content of the About Me section
     about: `I’m a BS student majoring in Informaion Technology Engineering and Big Data Analytics at Sookmyung Women’s University.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
